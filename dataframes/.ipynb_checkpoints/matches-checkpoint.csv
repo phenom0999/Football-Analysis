@@ -1,0 +1,381 @@
+match_id,date,home_team,away_team,label,venue,gameweek,winner_team_id
+2500089,2018-05-13 14:00:00,1646,1659,"Burnley - AFC Bournemouth, 1 - 2",Turf Moor,38,1659
+2500090,2018-05-13 14:00:00,1628,1627,"Crystal Palace - West Bromwich Albion, 2 - 0",Selhurst Park,38,1628
+2500091,2018-05-13 14:00:00,1673,1609,"Huddersfield Town - Arsenal, 0 - 1",The John Smith's Stadium,38,1609
+2500092,2018-05-13 14:00:00,1612,1651,"Liverpool - Brighton & Hove Albion, 4 - 0",Anfield,38,1612
+2500093,2018-05-13 14:00:00,1611,1644,"Manchester United - Watford, 1 - 0",Old Trafford,38,1611
+2500094,2018-05-13 14:00:00,1613,1610,"Newcastle United - Chelsea, 3 - 0",St. James' Park,38,1613
+2500095,2018-05-13 14:00:00,1619,1625,"Southampton - Manchester City, 0 - 1",St. Mary's Stadium,38,1625
+2500096,2018-05-13 14:00:00,10531,1639,"Swansea City - Stoke City, 1 - 2",Liberty Stadium,38,1639
+2500097,2018-05-13 14:00:00,1624,1631,"Tottenham Hotspur - Leicester City, 5 - 4",Wembley Stadium,38,1624
+2500098,2018-05-13 14:00:00,1633,1623,"West Ham United - Everton, 3 - 1",London Stadium,38,1633
+2500028,2018-05-10 18:45:00,1633,1611,"West Ham United - Manchester United, 0 - 0",London Stadium,31,0
+2500024,2018-05-09 19:00:00,1625,1651,"Manchester City - Brighton & Hove Albion, 3 - 1",Etihad Stadium,31,1625
+2500027,2018-05-09 19:00:00,1624,1613,"Tottenham Hotspur - Newcastle United, 1 - 0",Wembley Stadium,31,1624
+2500022,2018-05-09 18:45:00,1631,1609,"Leicester City - Arsenal, 3 - 1",King Power Stadium,31,1631
+2500062,2018-05-09 18:45:00,1610,1673,"Chelsea - Huddersfield Town, 1 - 1",Stamford Bridge,35,0
+2500026,2018-05-08 18:45:00,10531,1619,"Swansea City - Southampton, 0 - 1",Liberty Stadium,31,1619
+2500080,2018-05-06 15:30:00,1609,1646,"Arsenal - Burnley, 5 - 0",Emirates Stadium,37,1609
+2500082,2018-05-06 15:30:00,1610,1612,"Chelsea - Liverpool, 1 - 0",Stamford Bridge,37,1610
+2500085,2018-05-06 12:30:00,1625,1673,"Manchester City - Huddersfield Town, 0 - 0",Etihad Stadium,37,0
+2500083,2018-05-05 16:30:00,1623,1619,"Everton - Southampton, 1 - 1",Goodison Park,37,0
+2500079,2018-05-05 14:00:00,1659,10531,"AFC Bournemouth - Swansea City, 1 - 0",Vitality Stadium,37,1659
+2500084,2018-05-05 14:00:00,1631,1633,"Leicester City - West Ham United, 0 - 2",King Power Stadium,37,1633
+2500087,2018-05-05 14:00:00,1644,1613,"Watford - Newcastle United, 2 - 1",Vicarage Road Stadium,37,1644
+2500088,2018-05-05 14:00:00,1627,1624,"West Bromwich Albion - Tottenham Hotspur, 1 - 0",The Hawthorns,37,1627
+2500086,2018-05-05 11:30:00,1639,1628,"Stoke City - Crystal Palace, 1 - 2",Bet365 Stadium,37,1628
+2500081,2018-05-04 19:00:00,1651,1611,"Brighton & Hove Albion - Manchester United, 1 - 0",The American Express Community Stadium,37,1651
+2500077,2018-04-30 19:00:00,1624,1644,"Tottenham Hotspur - Watford, 2 - 0",Wembley Stadium,36,1624
+2500073,2018-04-29 15:30:00,1611,1609,"Manchester United - Arsenal, 2 - 1",Old Trafford,36,1611
+2500078,2018-04-29 13:15:00,1633,1625,"West Ham United - Manchester City, 1 - 4",London Stadium,36,1625
+2500076,2018-04-28 16:30:00,10531,1610,"Swansea City - Chelsea, 0 - 1",Liberty Stadium,36,1610
+2500069,2018-04-28 14:00:00,1646,1651,"Burnley - Brighton & Hove Albion, 0 - 0",Turf Moor,36,0
+2500070,2018-04-28 14:00:00,1628,1631,"Crystal Palace - Leicester City, 5 - 0",Selhurst Park,36,1628
+2500071,2018-04-28 14:00:00,1673,1623,"Huddersfield Town - Everton, 0 - 2",The John Smith's Stadium,36,1623
+2500074,2018-04-28 14:00:00,1613,1627,"Newcastle United - West Bromwich Albion, 0 - 1",St. James' Park,36,1627
+2500075,2018-04-28 14:00:00,1619,1659,"Southampton - AFC Bournemouth, 2 - 1",St. Mary's Stadium,36,1619
+2500072,2018-04-28 11:30:00,1612,1639,"Liverpool - Stoke City, 0 - 0",Anfield,36,0
+2500063,2018-04-23 19:00:00,1623,1613,"Everton - Newcastle United, 1 - 0",Goodison Park,35,1623
+2500065,2018-04-22 15:30:00,1625,10531,"Manchester City - Swansea City, 5 - 0",Etihad Stadium,35,1625
+2500060,2018-04-22 12:30:00,1609,1633,"Arsenal - West Ham United, 4 - 1",Emirates Stadium,35,1609
+2500066,2018-04-22 12:30:00,1639,1646,"Stoke City - Burnley, 1 - 1",Bet365 Stadium,35,0
+2500067,2018-04-21 14:00:00,1644,1628,"Watford - Crystal Palace, 0 - 0",Vicarage Road Stadium,35,0
+2500068,2018-04-21 11:30:00,1627,1612,"West Bromwich Albion - Liverpool, 2 - 2",The Hawthorns,35,0
+2500020,2018-04-19 18:45:00,1646,1610,"Burnley - Chelsea, 1 - 2",Turf Moor,31,1610
+2500064,2018-04-19 18:45:00,1631,1619,"Leicester City - Southampton, 0 - 0",King Power Stadium,35,0
+2500059,2018-04-18 18:45:00,1659,1611,"AFC Bournemouth - Manchester United, 0 - 2",Vitality Stadium,35,1611
+2500061,2018-04-17 18:45:00,1651,1624,"Brighton & Hove Albion - Tottenham Hotspur, 1 - 1",The American Express Community Stadium,35,0
+2500058,2018-04-16 19:00:00,1633,1639,"West Ham United - Stoke City, 1 - 1",London Stadium,34,0
+2500053,2018-04-15 15:00:00,1611,1627,"Manchester United - West Bromwich Albion, 0 - 1",Old Trafford,34,1627
+2500054,2018-04-15 12:30:00,1613,1609,"Newcastle United - Arsenal, 2 - 1",St. James' Park,34,1613
+2500057,2018-04-14 18:45:00,1624,1625,"Tottenham Hotspur - Manchester City, 1 - 3",Wembley Stadium,34,1625
+2500052,2018-04-14 16:30:00,1612,1659,"Liverpool - AFC Bournemouth, 3 - 0",Anfield,34,1612
+2500049,2018-04-14 14:00:00,1646,1631,"Burnley - Leicester City, 2 - 1",Turf Moor,34,1646
+2500050,2018-04-14 14:00:00,1628,1651,"Crystal Palace - Brighton & Hove Albion, 3 - 2",Selhurst Park,34,1628
+2500051,2018-04-14 14:00:00,1673,1644,"Huddersfield Town - Watford, 1 - 0",The John Smith's Stadium,34,1673
+2500056,2018-04-14 14:00:00,10531,1623,"Swansea City - Everton, 1 - 1",Liberty Stadium,34,0
+2500055,2018-04-14 11:30:00,1619,1610,"Southampton - Chelsea, 2 - 3",St. Mary's Stadium,34,1610
+2500042,2018-04-08 15:30:00,1610,1633,"Chelsea - West Ham United, 1 - 1",Stamford Bridge,33,0
+2500040,2018-04-08 13:15:00,1609,1619,"Arsenal - Southampton, 3 - 2",Emirates Stadium,33,1609
+2500045,2018-04-07 16:30:00,1625,1611,"Manchester City - Manchester United, 2 - 3",Etihad Stadium,33,1611
+2500039,2018-04-07 14:00:00,1659,1628,"AFC Bournemouth - Crystal Palace, 2 - 2",Vitality Stadium,33,0
+2500041,2018-04-07 14:00:00,1651,1673,"Brighton & Hove Albion - Huddersfield Town, 1 - 1",The American Express Community Stadium,33,0
+2500044,2018-04-07 14:00:00,1631,1613,"Leicester City - Newcastle United, 1 - 2",King Power Stadium,33,1613
+2500046,2018-04-07 14:00:00,1639,1624,"Stoke City - Tottenham Hotspur, 1 - 2",Bet365 Stadium,33,1624
+2500047,2018-04-07 14:00:00,1644,1646,"Watford - Burnley, 1 - 2",Vicarage Road Stadium,33,1646
+2500048,2018-04-07 14:00:00,1627,10531,"West Bromwich Albion - Swansea City, 1 - 1",The Hawthorns,33,0
+2500043,2018-04-07 11:30:00,1623,1612,"Everton - Liverpool, 0 - 0",Goodison Park,33,0
+2500031,2018-04-01 15:00:00,1610,1624,"Chelsea - Tottenham Hotspur, 1 - 3",Stamford Bridge,32,1624
+2500029,2018-04-01 12:30:00,1609,1639,"Arsenal - Stoke City, 3 - 0",Emirates Stadium,32,1609
+2500033,2018-03-31 16:30:00,1623,1625,"Everton - Manchester City, 1 - 3",Goodison Park,32,1625
+2499738,2018-03-31 14:00:00,1633,1619,"West Ham United - Southampton, 3 - 0",London Stadium,32,1633
+2500030,2018-03-31 14:00:00,1651,1631,"Brighton & Hove Albion - Leicester City, 0 - 2",The American Express Community Stadium,32,1631
+2500034,2018-03-31 14:00:00,1611,10531,"Manchester United - Swansea City, 2 - 0",Old Trafford,32,1611
+2500035,2018-03-31 14:00:00,1613,1673,"Newcastle United - Huddersfield Town, 1 - 0",St. James' Park,32,1613
+2500037,2018-03-31 14:00:00,1644,1659,"Watford - AFC Bournemouth, 2 - 2",Vicarage Road Stadium,32,0
+2500038,2018-03-31 14:00:00,1627,1646,"West Bromwich Albion - Burnley, 1 - 2",The Hawthorns,32,1646
+2500032,2018-03-31 11:30:00,1628,1612,"Crystal Palace - Liverpool, 1 - 2",Selhurst Park,32,1612
+2500023,2018-03-17 17:30:00,1612,1644,"Liverpool - Watford, 5 - 0",Anfield,31,1612
+2500019,2018-03-17 14:00:00,1659,1627,"AFC Bournemouth - West Bromwich Albion, 2 - 1",Vitality Stadium,31,1659
+2500021,2018-03-17 15:00:00,1673,1628,"Huddersfield Town - Crystal Palace, 0 - 2",The John Smith's Stadium,31,1628
+2500025,2018-03-17 14:00:00,1639,1623,"Stoke City - Everton, 1 - 2",Bet365 Stadium,31,1623
+2500016,2018-03-12 20:00:00,1639,1625,"Stoke City - Manchester City, 0 - 2",Bet365 Stadium,30,1625
+2500009,2018-03-11 16:00:00,1659,1624,"AFC Bournemouth - Tottenham Hotspur, 1 - 4",Vitality Stadium,30,1624
+2500010,2018-03-11 13:30:00,1609,1644,"Arsenal - Watford, 3 - 0",Emirates Stadium,30,1609
+2500011,2018-03-10 17:30:00,1610,1628,"Chelsea - Crystal Palace, 2 - 1",Stamford Bridge,30,1610
+2500012,2018-03-10 15:00:00,1623,1651,"Everton - Brighton & Hove Albion, 2 - 0",Goodison Park,30,0
+2500013,2018-03-10 15:00:00,1673,10531,"Huddersfield Town - Swansea City, 0 - 0",The John Smith's Stadium,30,0
+2500015,2018-03-10 15:00:00,1613,1619,"Newcastle United - Southampton, 3 - 0",St. James' Park,30,1613
+2500017,2018-03-10 15:00:00,1627,1631,"West Bromwich Albion - Leicester City, 1 - 4",The Hawthorns,30,1631
+2500018,2018-03-10 15:00:00,1633,1646,"West Ham United - Burnley, 0 - 3",London Stadium,30,1646
+2500014,2018-03-10 12:30:00,1611,1612,"Manchester United - Liverpool, 2 - 1",Old Trafford,30,1611
+2500001,2018-03-05 20:00:00,1628,1611,"Crystal Palace - Manchester United, 2 - 3",Selhurst Park,29,1611
+2500004,2018-03-04 16:00:00,1625,1610,"Manchester City - Chelsea, 1 - 0",Etihad Stadium,29,1625
+2499999,2018-03-04 13:30:00,1651,1609,"Brighton & Hove Albion - Arsenal, 2 - 1",The American Express Community Stadium,29,1651
+2500003,2018-03-03 17:30:00,1612,1613,"Liverpool - Newcastle United, 2 - 0",Anfield,29,1612
+2500002,2018-03-03 15:00:00,1631,1659,"Leicester City - AFC Bournemouth, 1 - 1",King Power Stadium,29,0
+2500005,2018-03-03 15:00:00,1619,1639,"Southampton - Stoke City, 0 - 0",St. Mary's Stadium,29,0
+2500006,2018-03-03 15:00:00,10531,1633,"Swansea City - West Ham United, 4 - 1",Liberty Stadium,29,10531
+2500007,2018-03-03 15:00:00,1624,1673,"Tottenham Hotspur - Huddersfield Town, 2 - 0",Wembley Stadium,29,1624
+2500008,2018-03-03 15:00:00,1644,1627,"Watford - West Bromwich Albion, 1 - 0",Vicarage Road Stadium,29,1644
+2500000,2018-03-03 12:30:00,1646,1623,"Burnley - Everton, 2 - 1",Turf Moor,29,1646
+2499990,2018-03-01 19:45:00,1609,1625,"Arsenal - Manchester City, 0 - 3",Emirates Stadium,28,1625
+2499996,2018-02-25 14:05:00,1611,1610,"Manchester United - Chelsea, 2 - 1",Old Trafford,28,1611
+2499993,2018-02-25 12:00:00,1628,1624,"Crystal Palace - Tottenham Hotspur, 0 - 1",Selhurst Park,28,1624
+2499997,2018-02-24 17:30:00,1644,1623,"Watford - Everton, 1 - 0",Vicarage Road Stadium,28,0
+2499989,2018-02-24 15:00:00,1659,1613,"AFC Bournemouth - Newcastle United, 2 - 2",Vitality Stadium,28,0
+2499991,2018-02-24 15:00:00,1651,10531,"Brighton & Hove Albion - Swansea City, 4 - 1",The American Express Community Stadium,28,1651
+2499992,2018-02-24 15:00:00,1646,1619,"Burnley - Southampton, 1 - 1",Turf Moor,28,0
+2499995,2018-02-24 15:00:00,1612,1633,"Liverpool - West Ham United, 4 - 1",Anfield,28,1612
+2499998,2018-02-24 15:00:00,1627,1673,"West Bromwich Albion - Huddersfield Town, 1 - 2",The Hawthorns,28,1673
+2499994,2018-02-24 12:30:00,1631,1639,"Leicester City - Stoke City, 1 - 1",King Power Stadium,28,0
+2499979,2018-02-12 20:00:00,1610,1627,"Chelsea - West Bromwich Albion, 3 - 0",Stamford Bridge,27,1610
+2499984,2018-02-11 16:30:00,1619,1612,"Southampton - Liverpool, 0 - 2",St. Mary's Stadium,27,1612
+2499983,2018-02-11 14:15:00,1613,1611,"Newcastle United - Manchester United, 1 - 0",St. James' Park,27,1613
+2499981,2018-02-11 12:00:00,1673,1659,"Huddersfield Town - AFC Bournemouth, 4 - 1",The John Smith's Stadium,27,1673
+2499982,2018-02-10 17:30:00,1625,1631,"Manchester City - Leicester City, 5 - 1",Etihad Stadium,27,1625
+2499980,2018-02-10 15:00:00,1623,1628,"Everton - Crystal Palace, 3 - 1",Goodison Park,27,1623
+2499985,2018-02-10 15:00:00,1639,1651,"Stoke City - Brighton & Hove Albion, 1 - 1",Bet365 Stadium,27,0
+2499986,2018-02-10 15:00:00,10531,1646,"Swansea City - Burnley, 1 - 0",Liberty Stadium,27,10531
+2499988,2018-02-10 15:00:00,1633,1644,"West Ham United - Watford, 2 - 0",London Stadium,27,1633
+2499987,2018-02-10 12:30:00,1624,1609,"Tottenham Hotspur - Arsenal, 1 - 0",Wembley Stadium,27,1624
+2499977,2018-02-05 20:00:00,1644,1610,"Watford - Chelsea, 4 - 1",Vicarage Road Stadium,26,1644
+2499975,2018-02-04 16:30:00,1612,1624,"Liverpool - Tottenham Hotspur, 2 - 2",Anfield,26,0
+2499973,2018-02-04 14:15:00,1628,1613,"Crystal Palace - Newcastle United, 1 - 1",Selhurst Park,26,0
+2499970,2018-02-03 17:30:00,1609,1623,"Arsenal - Everton, 5 - 1",Emirates Stadium,26,1609
+2499969,2018-02-03 15:00:00,1659,1639,"AFC Bournemouth - Stoke City, 2 - 1",Vitality Stadium,26,1659
+2499971,2018-02-03 15:00:00,1651,1633,"Brighton & Hove Albion - West Ham United, 3 - 1",The American Express Community Stadium,26,1651
+2499974,2018-02-03 15:00:00,1631,10531,"Leicester City - Swansea City, 1 - 1",King Power Stadium,26,0
+2499976,2018-02-03 15:00:00,1611,1673,"Manchester United - Huddersfield Town, 2 - 0",Old Trafford,26,1611
+2499978,2018-02-03 15:00:00,1627,1619,"West Bromwich Albion - Southampton, 2 - 3",The Hawthorns,26,1619
+2499972,2018-02-03 12:30:00,1646,1625,"Burnley - Manchester City, 1 - 1",Turf Moor,26,0
+2499966,2018-01-31 20:00:00,1625,1627,"Manchester City - West Bromwich Albion, 3 - 0",Etihad Stadium,25,1625
+2499967,2018-01-31 20:00:00,1639,1644,"Stoke City - Watford, 0 - 0",Bet365 Stadium,25,0
+2499968,2018-01-31 20:00:00,1624,1611,"Tottenham Hotspur - Manchester United, 2 - 0",Wembley Stadium,25,1624
+2499962,2018-01-31 19:45:00,1610,1659,"Chelsea - AFC Bournemouth, 0 - 3",Stamford Bridge,25,1659
+2499963,2018-01-31 19:45:00,1623,1631,"Everton - Leicester City, 2 - 1",Goodison Park,25,1623
+2499964,2018-01-31 19:45:00,1613,1646,"Newcastle United - Burnley, 1 - 1",St. James' Park,25,0
+2499965,2018-01-31 19:45:00,1619,1651,"Southampton - Brighton & Hove Albion, 1 - 1",St. Mary's Stadium,25,0
+2499959,2018-01-30 20:00:00,1673,1612,"Huddersfield Town - Liverpool, 0 - 3",The John Smith's Stadium,25,1612
+2499960,2018-01-30 19:45:00,10531,1609,"Swansea City - Arsenal, 3 - 1",Liberty Stadium,25,10531
+2499961,2018-01-30 19:45:00,1633,1628,"West Ham United - Crystal Palace, 1 - 1",London Stadium,25,0
+2499957,2018-01-22 20:00:00,10531,1612,"Swansea City - Liverpool, 1 - 0",Liberty Stadium,24,10531
+2499955,2018-01-21 16:00:00,1619,1624,"Southampton - Tottenham Hotspur, 1 - 1",St. Mary's Stadium,24,0
+2499954,2018-01-20 17:30:00,1625,1613,"Manchester City - Newcastle United, 3 - 1",Etihad Stadium,24,1625
+2499949,2018-01-20 15:00:00,1609,1628,"Arsenal - Crystal Palace, 4 - 1",Emirates Stadium,24,1609
+2499951,2018-01-20 15:00:00,1646,1611,"Burnley - Manchester United, 0 - 1",Turf Moor,24,1611
+2499952,2018-01-20 15:00:00,1623,1627,"Everton - West Bromwich Albion, 1 - 1",Goodison Park,24,0
+2499953,2018-01-20 15:00:00,1631,1644,"Leicester City - Watford, 2 - 0",King Power Stadium,24,1631
+2499956,2018-01-20 15:00:00,1639,1673,"Stoke City - Huddersfield Town, 2 - 0",Bet365 Stadium,24,1639
+2499958,2018-01-20 15:00:00,1633,1659,"West Ham United - AFC Bournemouth, 1 - 1",London Stadium,24,0
+2499950,2018-01-20 12:30:00,1651,1610,"Brighton & Hove Albion - Chelsea, 0 - 4",The American Express Community Stadium,24,1610
+2499944,2018-01-15 20:00:00,1611,1639,"Manchester United - Stoke City, 3 - 0",Old Trafford,23,1611
+2499943,2018-01-14 16:00:00,1612,1625,"Liverpool - Manchester City, 4 - 3",Anfield,23,1612
+2499939,2018-01-14 13:30:00,1659,1609,"AFC Bournemouth - Arsenal, 2 - 1",Vitality Stadium,23,1659
+2499946,2018-01-13 17:30:00,1624,1623,"Tottenham Hotspur - Everton, 4 - 0",Wembley Stadium,23,1624
+2499940,2018-01-13 15:00:00,1610,1631,"Chelsea - Leicester City, 0 - 0",Stamford Bridge,23,0
+2499941,2018-01-13 15:00:00,1628,1646,"Crystal Palace - Burnley, 1 - 0",Selhurst Park,23,1628
+2499942,2018-01-13 15:00:00,1673,1633,"Huddersfield Town - West Ham United, 1 - 4",The John Smith's Stadium,23,1633
+2499945,2018-01-13 15:00:00,1613,10531,"Newcastle United - Swansea City, 1 - 1",St. James' Park,23,0
+2499947,2018-01-13 15:00:00,1644,1619,"Watford - Southampton, 2 - 2",Vicarage Road Stadium,23,0
+2499948,2018-01-13 15:00:00,1627,1651,"West Bromwich Albion - Brighton & Hove Albion, 2 - 0",The Hawthorns,23,1627
+2499926,2018-01-04 20:00:00,1624,1633,"Tottenham Hotspur - West Ham United, 1 - 1",Wembley Stadium,21,0
+2499929,2018-01-03 19:45:00,1609,1610,"Arsenal - Chelsea, 2 - 2",Emirates Stadium,22,0
+2499937,2018-01-02 19:45:00,10531,1624,"Swansea City - Tottenham Hotspur, 0 - 2",Liberty Stadium,22,1624
+2499938,2018-01-02 19:45:00,1633,1627,"West Ham United - West Bromwich Albion, 2 - 1",London Stadium,22,1633
+2499934,2018-01-02 20:00:00,1625,1644,"Manchester City - Watford, 3 - 1",Etihad Stadium,22,1625
+2499935,2018-01-02 19:45:00,1619,1628,"Southampton - Crystal Palace, 1 - 2",St. Mary's Stadium,22,1628
+2499932,2018-01-01 17:30:00,1623,1611,"Everton - Manchester United, 0 - 2",Goodison Park,22,1611
+2499931,2018-01-01 15:00:00,1646,1612,"Burnley - Liverpool, 1 - 2",Turf Moor,22,1612
+2499933,2018-01-01 15:00:00,1631,1673,"Leicester City - Huddersfield Town, 3 - 0",King Power Stadium,22,1631
+2499936,2018-01-01 15:00:00,1639,1613,"Stoke City - Newcastle United, 0 - 1",Bet365 Stadium,22,1613
+2499930,2018-01-01 12:30:00,1651,1659,"Brighton & Hove Albion - AFC Bournemouth, 2 - 2",The American Express Community Stadium,22,0
+2499928,2017-12-31 16:30:00,1627,1609,"West Bromwich Albion - Arsenal, 1 - 1",The Hawthorns,21,0
+2499921,2017-12-31 12:00:00,1628,1625,"Crystal Palace - Manchester City, 0 - 0",Selhurst Park,21,0
+2499924,2017-12-30 17:30:00,1611,1619,"Manchester United - Southampton, 0 - 0",Old Trafford,21,0
+2499919,2017-12-30 15:00:00,1659,1623,"AFC Bournemouth - Everton, 2 - 1",Vitality Stadium,21,1659
+2499920,2017-12-30 15:00:00,1610,1639,"Chelsea - Stoke City, 5 - 0",Stamford Bridge,21,1610
+2499922,2017-12-30 15:00:00,1673,1646,"Huddersfield Town - Burnley, 0 - 0",The John Smith's Stadium,21,0
+2499923,2017-12-30 15:00:00,1612,1631,"Liverpool - Leicester City, 2 - 1",Anfield,21,1612
+2499925,2017-12-30 15:00:00,1613,1651,"Newcastle United - Brighton & Hove Albion, 0 - 0",St. James' Park,21,0
+2499927,2017-12-30 15:00:00,1644,10531,"Watford - Swansea City, 1 - 2",Vicarage Road Stadium,21,10531
+2499911,2017-12-28 20:00:00,1628,1609,"Crystal Palace - Arsenal, 2 - 3",Selhurst Park,20,1609
+2499915,2017-12-27 19:45:00,1613,1625,"Newcastle United - Manchester City, 0 - 1",St. James' Park,20,1625
+2499913,2017-12-26 17:30:00,1612,10531,"Liverpool - Swansea City, 5 - 0",Anfield,20,1612
+2499909,2017-12-26 15:00:00,1659,1633,"AFC Bournemouth - West Ham United, 3 - 3",Vitality Stadium,20,0
+2499910,2017-12-26 15:00:00,1610,1651,"Chelsea - Brighton & Hove Albion, 2 - 0",Stamford Bridge,20,1610
+2499912,2017-12-26 15:00:00,1673,1639,"Huddersfield Town - Stoke City, 1 - 1",The John Smith's Stadium,20,0
+2499914,2017-12-26 15:00:00,1611,1646,"Manchester United - Burnley, 2 - 2",Old Trafford,20,0
+2499917,2017-12-26 15:00:00,1644,1631,"Watford - Leicester City, 2 - 1",Vicarage Road Stadium,20,1644
+2499918,2017-12-26 15:00:00,1627,1623,"West Bromwich Albion - Everton, 0 - 0",The Hawthorns,20,0
+2499916,2017-12-26 12:30:00,1624,1619,"Tottenham Hotspur - Southampton, 5 - 2",Wembley Stadium,20,1624
+2499903,2017-12-23 19:45:00,1631,1611,"Leicester City - Manchester United, 2 - 2",King Power Stadium,19,0
+2499901,2017-12-23 17:30:00,1646,1624,"Burnley - Tottenham Hotspur, 0 - 3",Turf Moor,19,1624
+2499900,2017-12-23 15:00:00,1651,1644,"Brighton & Hove Albion - Watford, 1 - 0",The American Express Community Stadium,19,1651
+2499904,2017-12-23 15:00:00,1625,1659,"Manchester City - AFC Bournemouth, 4 - 0",Etihad Stadium,19,1625
+2499905,2017-12-23 15:00:00,1619,1673,"Southampton - Huddersfield Town, 1 - 1",St. Mary's Stadium,19,0
+2499906,2017-12-23 15:00:00,1639,1627,"Stoke City - West Bromwich Albion, 3 - 1",Bet365 Stadium,19,1639
+2499907,2017-12-23 15:00:00,10531,1628,"Swansea City - Crystal Palace, 1 - 1",Liberty Stadium,19,0
+2499908,2017-12-23 15:00:00,1633,1613,"West Ham United - Newcastle United, 2 - 3",London Stadium,19,1613
+2499902,2017-12-23 12:30:00,1623,1610,"Everton - Chelsea, 0 - 0",Goodison Park,19,0
+2499899,2017-12-22 19:45:00,1609,1612,"Arsenal - Liverpool, 3 - 3",Emirates Stadium,19,0
+2499893,2017-12-18 20:00:00,1623,10531,"Everton - Swansea City, 3 - 1",Goodison Park,18,1623
+2499889,2017-12-17 16:30:00,1659,1612,"AFC Bournemouth - Liverpool, 0 - 4",Vitality Stadium,18,1612
+2499898,2017-12-17 14:15:00,1627,1611,"West Bromwich Albion - Manchester United, 1 - 2",The Hawthorns,18,1611
+2499895,2017-12-16 17:30:00,1625,1624,"Manchester City - Tottenham Hotspur, 4 - 1",Etihad Stadium,18,1625
+2499896,2017-12-16 16:00:00,1639,1633,"Stoke City - West Ham United, 0 - 3",Bet365 Stadium,18,1633
+2499890,2017-12-16 15:00:00,1609,1613,"Arsenal - Newcastle United, 1 - 0",Emirates Stadium,18,1609
+2499891,2017-12-16 15:00:00,1651,1646,"Brighton & Hove Albion - Burnley, 0 - 0",The American Express Community Stadium,18,0
+2499892,2017-12-16 15:00:00,1610,1619,"Chelsea - Southampton, 1 - 0",Stamford Bridge,18,1610
+2499897,2017-12-16 15:00:00,1644,1673,"Watford - Huddersfield Town, 1 - 4",Vicarage Road Stadium,18,1673
+2499894,2017-12-16 12:30:00,1631,1628,"Leicester City - Crystal Palace, 0 - 3",King Power Stadium,18,1628
+2499882,2017-12-13 20:00:00,1633,1609,"West Ham United - Arsenal, 0 - 0",London Stadium,17,0
+2499884,2017-12-13 20:00:00,1611,1659,"Manchester United - AFC Bournemouth, 1 - 0",Old Trafford,17,1611
+2499887,2017-12-13 20:00:00,1612,1627,"Liverpool - West Bromwich Albion, 0 - 0",Anfield,17,0
+2499888,2017-12-13 20:00:00,1624,1651,"Tottenham Hotspur - Brighton & Hove Albion, 2 - 0",Wembley Stadium,17,1624
+2499881,2017-12-13 19:45:00,10531,1625,"Swansea City - Manchester City, 0 - 4",Liberty Stadium,17,1625
+2499885,2017-12-13 19:45:00,1613,1623,"Newcastle United - Everton, 0 - 1",St. James' Park,17,1623
+2499886,2017-12-13 19:45:00,1619,1631,"Southampton - Leicester City, 1 - 4",St. Mary's Stadium,17,1631
+2499880,2017-12-12 20:00:00,1673,1610,"Huddersfield Town - Chelsea, 1 - 3",The John Smith's Stadium,17,1610
+2499883,2017-12-12 20:00:00,1628,1644,"Crystal Palace - Watford, 2 - 1",Selhurst Park,17,1628
+2499879,2017-12-12 19:45:00,1646,1639,"Burnley - Stoke City, 1 - 0",Turf Moor,17,1646
+2499873,2017-12-10 16:30:00,1611,1625,"Manchester United - Manchester City, 1 - 2",Old Trafford,16,1625
+2499872,2017-12-10 14:15:00,1612,1623,"Liverpool - Everton, 1 - 1",Anfield,16,0
+2499875,2017-12-10 12:00:00,1619,1609,"Southampton - Arsenal, 1 - 1",St. Mary's Stadium,16,0
+2499874,2017-12-09 17:30:00,1613,1631,"Newcastle United - Leicester City, 2 - 3",St. James' Park,16,1631
+2499869,2017-12-09 15:00:00,1646,1644,"Burnley - Watford, 1 - 0",Turf Moor,16,1646
+2499870,2017-12-09 15:00:00,1628,1659,"Crystal Palace - AFC Bournemouth, 2 - 2",Selhurst Park,16,0
+2499871,2017-12-09 15:00:00,1673,1651,"Huddersfield Town - Brighton & Hove Albion, 2 - 0",The John Smith's Stadium,16,1673
+2499876,2017-12-09 15:00:00,10531,1627,"Swansea City - West Bromwich Albion, 1 - 0",Liberty Stadium,16,10531
+2499877,2017-12-09 15:00:00,1624,1639,"Tottenham Hotspur - Stoke City, 5 - 1",Wembley Stadium,16,1624
+2499878,2017-12-09 12:30:00,1633,1610,"West Ham United - Chelsea, 1 - 0",London Stadium,16,1633
+2499865,2017-12-03 16:00:00,1625,1633,"Manchester City - West Ham United, 2 - 1",Etihad Stadium,15,1625
+2499859,2017-12-03 13:30:00,1659,1619,"AFC Bournemouth - Southampton, 1 - 1",Vitality Stadium,15,0
+2499860,2017-12-02 17:30:00,1609,1611,"Arsenal - Manchester United, 1 - 3",Emirates Stadium,15,1611
+2499861,2017-12-02 15:00:00,1651,1612,"Brighton & Hove Albion - Liverpool, 1 - 5",The American Express Community Stadium,15,1612
+2499863,2017-12-02 15:00:00,1623,1673,"Everton - Huddersfield Town, 2 - 0",Goodison Park,15,1623
+2499864,2017-12-02 15:00:00,1631,1646,"Leicester City - Burnley, 1 - 0",King Power Stadium,15,1631
+2499866,2017-12-02 15:00:00,1639,10531,"Stoke City - Swansea City, 2 - 1",Bet365 Stadium,15,1639
+2499867,2017-12-02 15:00:00,1644,1624,"Watford - Tottenham Hotspur, 1 - 1",Vicarage Road Stadium,15,0
+2499868,2017-12-02 15:00:00,1627,1628,"West Bromwich Albion - Crystal Palace, 0 - 0",The Hawthorns,15,0
+2499862,2017-12-02 12:30:00,1610,1613,"Chelsea - Newcastle United, 3 - 1",Stamford Bridge,15,1610
+2499856,2017-11-29 20:00:00,1623,1633,"Everton - West Ham United, 4 - 0",Goodison Park,14,1623
+2499857,2017-11-29 20:00:00,1625,1619,"Manchester City - Southampton, 2 - 1",Etihad Stadium,14,1625
+2499858,2017-11-29 20:00:00,1639,1612,"Stoke City - Liverpool, 0 - 3",Bet365 Stadium,14,1612
+2499849,2017-11-29 19:45:00,1659,1646,"AFC Bournemouth - Burnley, 1 - 2",Vitality Stadium,14,1646
+2499850,2017-11-29 19:45:00,1609,1673,"Arsenal - Huddersfield Town, 5 - 0",Emirates Stadium,14,1609
+2499855,2017-11-29 19:45:00,1610,10531,"Chelsea - Swansea City, 1 - 0",Stamford Bridge,14,1610
+2499853,2017-11-28 20:00:00,1644,1611,"Watford - Manchester United, 2 - 4",Vicarage Road Stadium,14,1611
+2499854,2017-11-28 20:00:00,1627,1613,"West Bromwich Albion - Newcastle United, 2 - 2",The Hawthorns,14,0
+2499851,2017-11-28 19:45:00,1651,1628,"Brighton & Hove Albion - Crystal Palace, 0 - 0",The American Express Community Stadium,14,0
+2499852,2017-11-28 19:45:00,1631,1624,"Leicester City - Tottenham Hotspur, 2 - 1",King Power Stadium,14,1631
+2499841,2017-11-26 16:00:00,1673,1625,"Huddersfield Town - Manchester City, 1 - 2",The John Smith's Stadium,13,1625
+2499839,2017-11-26 14:00:00,1646,1609,"Burnley - Arsenal, 0 - 1",Turf Moor,13,1609
+2499845,2017-11-26 13:30:00,1619,1623,"Southampton - Everton, 4 - 1",St. Mary's Stadium,13,1619
+2499842,2017-11-25 17:30:00,1612,1610,"Liverpool - Chelsea, 1 - 1",Anfield,13,0
+2499840,2017-11-25 15:00:00,1628,1639,"Crystal Palace - Stoke City, 2 - 1",Selhurst Park,13,1628
+2499843,2017-11-25 15:00:00,1611,1651,"Manchester United - Brighton & Hove Albion, 1 - 0",Old Trafford,13,1611
+2499844,2017-11-25 15:00:00,1613,1644,"Newcastle United - Watford, 0 - 3",St. James' Park,13,1644
+2499846,2017-11-25 15:00:00,10531,1659,"Swansea City - AFC Bournemouth, 0 - 0",Liberty Stadium,13,0
+2499847,2017-11-25 15:00:00,1624,1627,"Tottenham Hotspur - West Bromwich Albion, 1 - 1",Wembley Stadium,13,0
+2499848,2017-11-24 20:00:00,1633,1631,"West Ham United - Leicester City, 1 - 1",London Stadium,13,0
+2499831,2017-11-20 20:00:00,1651,1639,"Brighton & Hove Albion - Stoke City, 2 - 2",The American Express Community Stadium,12,0
+2499837,2017-11-19 16:00:00,1644,1633,"Watford - West Ham United, 2 - 0",Vicarage Road Stadium,12,1644
+2499836,2017-11-18 17:30:00,1611,1613,"Manchester United - Newcastle United, 4 - 1",Old Trafford,12,1611
+2499829,2017-11-18 15:00:00,1659,1673,"AFC Bournemouth - Huddersfield Town, 4 - 0",Vitality Stadium,12,1659
+2499832,2017-11-18 15:00:00,1646,10531,"Burnley - Swansea City, 2 - 0",Turf Moor,12,1646
+2499833,2017-11-18 15:00:00,1628,1623,"Crystal Palace - Everton, 2 - 2",Selhurst Park,12,0
+2499834,2017-11-18 15:00:00,1631,1625,"Leicester City - Manchester City, 0 - 2",King Power Stadium,12,1625
+2499835,2017-11-18 15:00:00,1612,1619,"Liverpool - Southampton, 3 - 0",Anfield,12,1612
+2499838,2017-11-18 15:00:00,1627,1610,"West Bromwich Albion - Chelsea, 0 - 4",The Hawthorns,12,1610
+2499830,2017-11-18 12:30:00,1609,1624,"Arsenal - Tottenham Hotspur, 2 - 0",Emirates Stadium,12,1609
+2499819,2017-11-05 16:30:00,1610,1611,"Chelsea - Manchester United, 1 - 0",Stamford Bridge,11,1610
+2499820,2017-11-05 16:30:00,1623,1644,"Everton - Watford, 3 - 2",Goodison Park,11,1623
+2499822,2017-11-05 14:15:00,1625,1609,"Manchester City - Arsenal, 3 - 1",Etihad Stadium,11,1625
+2499827,2017-11-05 12:00:00,1624,1628,"Tottenham Hotspur - Crystal Palace, 1 - 0",Wembley Stadium,11,1624
+2499828,2017-11-04 17:30:00,1633,1612,"West Ham United - Liverpool, 1 - 4",London Stadium,11,1612
+2499821,2017-11-04 15:00:00,1673,1627,"Huddersfield Town - West Bromwich Albion, 1 - 0",The John Smith's Stadium,11,1673
+2499823,2017-11-04 15:00:00,1613,1659,"Newcastle United - AFC Bournemouth, 0 - 1",St. James' Park,11,1659
+2499824,2017-11-04 15:00:00,1619,1646,"Southampton - Burnley, 0 - 1",St. Mary's Stadium,11,1646
+2499826,2017-11-04 15:00:00,10531,1651,"Swansea City - Brighton & Hove Albion, 0 - 1",Liberty Stadium,11,1651
+2499825,2017-11-04 12:30:00,1639,1631,"Stoke City - Leicester City, 2 - 2",Bet365 Stadium,11,0
+2499812,2017-10-30 20:00:00,1646,1613,"Burnley - Newcastle United, 1 - 0",Turf Moor,10,1646
+2499814,2017-10-29 16:00:00,1631,1623,"Leicester City - Everton, 2 - 0",King Power Stadium,10,1631
+2499811,2017-10-29 13:30:00,1651,1619,"Brighton & Hove Albion - Southampton, 1 - 1",The American Express Community Stadium,10,0
+2499809,2017-10-28 16:30:00,1659,1610,"AFC Bournemouth - Chelsea, 0 - 1",Vitality Stadium,10,1610
+2499810,2017-10-28 14:00:00,1609,10531,"Arsenal - Swansea City, 2 - 1",Emirates Stadium,10,1609
+2499813,2017-10-28 14:00:00,1628,1633,"Crystal Palace - West Ham United, 2 - 2",Selhurst Park,10,0
+2499815,2017-10-28 14:00:00,1612,1673,"Liverpool - Huddersfield Town, 3 - 0",Anfield,10,1612
+2499817,2017-10-28 14:00:00,1644,1639,"Watford - Stoke City, 0 - 1",Vicarage Road Stadium,10,1639
+2499818,2017-10-28 14:00:00,1627,1625,"West Bromwich Albion - Manchester City, 2 - 3",The Hawthorns,10,1625
+2499816,2017-10-28 11:30:00,1611,1624,"Manchester United - Tottenham Hotspur, 1 - 0",Old Trafford,10,1611
+2499807,2017-10-22 15:00:00,1624,1612,"Tottenham Hotspur - Liverpool, 4 - 1",Wembley Stadium,9,1624
+2499800,2017-10-22 12:30:00,1623,1609,"Everton - Arsenal, 2 - 5",Goodison Park,9,1609
+2499804,2017-10-21 16:30:00,1619,1627,"Southampton - West Bromwich Albion, 1 - 0",St. Mary's Stadium,9,1619
+2499801,2017-10-21 14:00:00,1673,1611,"Huddersfield Town - Manchester United, 2 - 1",The John Smith's Stadium,9,1673
+2499802,2017-10-21 14:00:00,1625,1646,"Manchester City - Burnley, 3 - 0",Etihad Stadium,9,1625
+2499803,2017-10-21 14:00:00,1613,1628,"Newcastle United - Crystal Palace, 1 - 0",St. James' Park,9,1613
+2499805,2017-10-21 14:00:00,1639,1659,"Stoke City - AFC Bournemouth, 1 - 2",Bet365 Stadium,9,1659
+2499806,2017-10-21 14:00:00,10531,1631,"Swansea City - Leicester City, 1 - 2",Liberty Stadium,9,1631
+2499799,2017-10-21 11:30:00,1610,1644,"Chelsea - Watford, 4 - 2",Stamford Bridge,9,1610
+2499808,2017-10-20 19:00:00,1633,1651,"West Ham United - Brighton & Hove Albion, 0 - 3",London Stadium,9,1651
+2499792,2017-10-16 19:00:00,1631,1627,"Leicester City - West Bromwich Albion, 1 - 1",King Power Stadium,8,0
+2499795,2017-10-15 15:00:00,1619,1613,"Southampton - Newcastle United, 2 - 2",St. Mary's Stadium,8,0
+2499789,2017-10-15 12:30:00,1651,1623,"Brighton & Hove Albion - Everton, 1 - 1",The American Express Community Stadium,8,0
+2499798,2017-10-14 16:30:00,1644,1609,"Watford - Arsenal, 2 - 1",Vicarage Road Stadium,8,1644
+2499790,2017-10-14 14:00:00,1646,1633,"Burnley - West Ham United, 1 - 1",Turf Moor,8,0
+2499791,2017-10-14 14:00:00,1628,1610,"Crystal Palace - Chelsea, 2 - 1",Selhurst Park,8,1628
+2499794,2017-10-14 14:00:00,1625,1639,"Manchester City - Stoke City, 7 - 2",Etihad Stadium,8,1625
+2499796,2017-10-14 14:00:00,10531,1673,"Swansea City - Huddersfield Town, 2 - 0",Liberty Stadium,8,10531
+2499797,2017-10-14 14:00:00,1624,1659,"Tottenham Hotspur - AFC Bournemouth, 1 - 0",Wembley Stadium,8,1624
+2499793,2017-10-14 11:30:00,1612,1611,"Liverpool - Manchester United, 0 - 0",Anfield,8,0
+2499785,2017-10-01 15:30:00,1613,1612,"Newcastle United - Liverpool, 1 - 1",St. James' Park,7,0
+2499782,2017-10-01 13:15:00,1623,1646,"Everton - Burnley, 0 - 1",Goodison Park,7,1646
+2499780,2017-10-01 11:00:00,1609,1651,"Arsenal - Brighton & Hove Albion, 2 - 0",Emirates Stadium,7,1609
+2499781,2017-09-30 16:30:00,1610,1625,"Chelsea - Manchester City, 0 - 1",Stamford Bridge,7,1625
+2499779,2017-09-30 14:00:00,1659,1631,"AFC Bournemouth - Leicester City, 0 - 0",Vitality Stadium,7,0
+2499784,2017-09-30 14:00:00,1611,1628,"Manchester United - Crystal Palace, 4 - 0",Old Trafford,7,1611
+2499786,2017-09-30 14:00:00,1639,1619,"Stoke City - Southampton, 2 - 1",Bet365 Stadium,7,1639
+2499787,2017-09-30 14:00:00,1627,1644,"West Bromwich Albion - Watford, 2 - 2",The Hawthorns,7,0
+2499788,2017-09-30 14:00:00,1633,10531,"West Ham United - Swansea City, 1 - 0",London Stadium,7,1633
+2499783,2017-09-30 11:30:00,1673,1624,"Huddersfield Town - Tottenham Hotspur, 0 - 4",The John Smith's Stadium,7,1624
+2499769,2017-09-25 19:00:00,1609,1627,"Arsenal - West Bromwich Albion, 2 - 0",Emirates Stadium,6,1609
+2499770,2017-09-24 15:00:00,1651,1613,"Brighton & Hove Albion - Newcastle United, 1 - 0",The American Express Community Stadium,6,1651
+2499773,2017-09-23 16:30:00,1631,1612,"Leicester City - Liverpool, 2 - 3",King Power Stadium,6,1612
+2499771,2017-09-23 14:00:00,1646,1673,"Burnley - Huddersfield Town, 0 - 0",Turf Moor,6,0
+2499772,2017-09-23 14:00:00,1623,1659,"Everton - AFC Bournemouth, 2 - 1",Goodison Park,6,1623
+2499774,2017-09-23 14:00:00,1625,1628,"Manchester City - Crystal Palace, 5 - 0",Etihad Stadium,6,1625
+2499775,2017-09-23 14:00:00,1619,1611,"Southampton - Manchester United, 0 - 1",St. Mary's Stadium,6,1611
+2499776,2017-09-23 14:00:00,1639,1610,"Stoke City - Chelsea, 0 - 4",Bet365 Stadium,6,1610
+2499777,2017-09-23 14:00:00,10531,1644,"Swansea City - Watford, 1 - 2",Liberty Stadium,6,1644
+2499778,2017-09-23 11:30:00,1633,1624,"West Ham United - Tottenham Hotspur, 2 - 3",London Stadium,6,1624
+2499764,2017-09-17 15:00:00,1611,1623,"Manchester United - Everton, 4 - 0",Old Trafford,5,1611
+2499760,2017-09-17 12:30:00,1610,1609,"Chelsea - Arsenal, 0 - 0",Stamford Bridge,5,0
+2499766,2017-09-16 16:30:00,1624,10531,"Tottenham Hotspur - Swansea City, 0 - 0",Wembley Stadium,5,0
+2499762,2017-09-16 14:00:00,1673,1631,"Huddersfield Town - Leicester City, 1 - 1",The John Smith's Stadium,5,0
+2499763,2017-09-16 14:00:00,1612,1646,"Liverpool - Burnley, 1 - 1",Anfield,5,0
+2499765,2017-09-16 14:00:00,1613,1639,"Newcastle United - Stoke City, 2 - 1",St. James' Park,5,1613
+2499767,2017-09-16 14:00:00,1644,1625,"Watford - Manchester City, 0 - 6",Vicarage Road Stadium,5,1625
+2499768,2017-09-16 14:00:00,1627,1633,"West Bromwich Albion - West Ham United, 0 - 0",The Hawthorns,5,0
+2499761,2017-09-16 11:30:00,1628,1619,"Crystal Palace - Southampton, 0 - 1",Selhurst Park,5,1619
+2499759,2017-09-15 19:00:00,1659,1651,"AFC Bournemouth - Brighton & Hove Albion, 2 - 1",Vitality Stadium,5,1659
+2499758,2017-09-11 19:00:00,1633,1673,"West Ham United - Huddersfield Town, 2 - 0",London Stadium,4,1633
+2499757,2017-09-10 15:00:00,10531,1613,"Swansea City - Newcastle United, 0 - 1",Liberty Stadium,4,1613
+2499751,2017-09-10 12:30:00,1646,1628,"Burnley - Crystal Palace, 1 - 0",Turf Moor,4,1646
+2499756,2017-09-09 16:30:00,1639,1611,"Stoke City - Manchester United, 2 - 2",Bet365 Stadium,4,0
+2499749,2017-09-09 14:00:00,1609,1659,"Arsenal - AFC Bournemouth, 3 - 0",Emirates Stadium,4,1609
+2499750,2017-09-09 14:00:00,1651,1627,"Brighton & Hove Albion - West Bromwich Albion, 3 - 1",The American Express Community Stadium,4,1651
+2499752,2017-09-09 14:00:00,1623,1624,"Everton - Tottenham Hotspur, 0 - 3",Goodison Park,4,1624
+2499753,2017-09-09 14:00:00,1631,1610,"Leicester City - Chelsea, 1 - 2",King Power Stadium,4,1610
+2499755,2017-09-09 14:00:00,1619,1644,"Southampton - Watford, 0 - 2",St. Mary's Stadium,4,1644
+2499754,2017-09-09 11:30:00,1625,1612,"Manchester City - Liverpool, 5 - 0",Etihad Stadium,4,1625
+2499743,2017-08-27 15:00:00,1612,1609,"Liverpool - Arsenal, 4 - 0",Anfield,3,1612
+2499746,2017-08-27 15:00:00,1624,1646,"Tottenham Hotspur - Burnley, 1 - 1",Wembley Stadium,3,0
+2499740,2017-08-27 12:30:00,1610,1623,"Chelsea - Everton, 2 - 0",Stamford Bridge,3,1610
+2499748,2017-08-27 12:30:00,1627,1639,"West Bromwich Albion - Stoke City, 1 - 1",The Hawthorns,3,0
+2499744,2017-08-26 16:30:00,1611,1631,"Manchester United - Leicester City, 2 - 0",Old Trafford,3,1611
+2499741,2017-08-26 14:00:00,1628,10531,"Crystal Palace - Swansea City, 0 - 2",Selhurst Park,3,10531
+2499742,2017-08-26 14:00:00,1673,1619,"Huddersfield Town - Southampton, 0 - 0",The John Smith's Stadium,3,0
+2499745,2017-08-26 14:00:00,1613,1633,"Newcastle United - West Ham United, 3 - 0",St. James' Park,3,1613
+2499747,2017-08-26 14:00:00,1644,1651,"Watford - Brighton & Hove Albion, 0 - 0",Vicarage Road Stadium,3,0
+2499739,2017-08-26 11:30:00,1659,1625,"AFC Bournemouth - Manchester City, 1 - 2",Vitality Stadium,3,1625
+2499734,2017-08-21 19:00:00,1625,1623,"Manchester City - Everton, 1 - 1",Etihad Stadium,2,0
+2499737,2017-08-20 15:00:00,1624,1610,"Tottenham Hotspur - Chelsea, 1 - 2",Wembley Stadium,2,1610
+2499731,2017-08-20 12:30:00,1673,1613,"Huddersfield Town - Newcastle United, 1 - 0",The John Smith's Stadium,2,1673
+2499735,2017-08-19 16:30:00,1639,1609,"Stoke City - Arsenal, 1 - 0",Bet365 Stadium,2,1639
+2499729,2017-08-19 14:00:00,1659,1644,"AFC Bournemouth - Watford, 0 - 2",Vitality Stadium,2,1644
+2499730,2017-08-19 14:00:00,1646,1627,"Burnley - West Bromwich Albion, 0 - 1",Turf Moor,2,1627
+2499732,2017-08-19 14:00:00,1631,1651,"Leicester City - Brighton & Hove Albion, 2 - 0",King Power Stadium,2,1631
+2499733,2017-08-19 14:00:00,1612,1628,"Liverpool - Crystal Palace, 1 - 0",Anfield,2,1612
+2500036,2017-08-19 14:00:00,1619,1633,"Southampton - West Ham United, 3 - 2",St. Mary's Stadium,2,1619
+2499736,2017-08-19 11:30:00,10531,1611,"Swansea City - Manchester United, 0 - 4",Liberty Stadium,2,1611
+2499724,2017-08-13 15:00:00,1611,1633,"Manchester United - West Ham United, 4 - 0",Old Trafford,1,1611
+2499725,2017-08-13 12:30:00,1613,1624,"Newcastle United - Tottenham Hotspur, 0 - 2",St. James' Park,1,1624
+2499720,2017-08-12 16:30:00,1651,1625,"Brighton & Hove Albion - Manchester City, 0 - 2",The American Express Community Stadium,1,1625
+2499721,2017-08-12 14:00:00,1610,1646,"Chelsea - Burnley, 2 - 3",Stamford Bridge,1,1646
+2499722,2017-08-12 14:00:00,1628,1673,"Crystal Palace - Huddersfield Town, 0 - 3",Selhurst Park,1,1673
+2499723,2017-08-12 14:00:00,1623,1639,"Everton - Stoke City, 1 - 0",Goodison Park,1,1623
+2499726,2017-08-12 14:00:00,1619,10531,"Southampton - Swansea City, 0 - 0",St. Mary's Stadium,1,0
+2499728,2017-08-12 14:00:00,1627,1659,"West Bromwich Albion - AFC Bournemouth, 1 - 0",The Hawthorns,1,1627
+2499727,2017-08-12 11:30:00,1644,1612,"Watford - Liverpool, 3 - 3",Vicarage Road Stadium,1,0
+2499719,2017-08-11 18:45:00,1609,1631,"Arsenal - Leicester City, 4 - 3",Emirates Stadium,1,1609
