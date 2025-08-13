@@ -11,6 +11,9 @@ class plots:
 
     def plot_shooting_positions_of(self, playerID):
 
+        a = query.get_goals_by_team_per_match(1625)[["match_id", "score"]]
+        b = query.get_goals_by_team_per_match_from_events(1625)
+
         player_shot_positions = self.query.shooting_positions_of(playerID)
         
         x = player_shot_positions["initialX"]
