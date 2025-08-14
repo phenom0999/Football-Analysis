@@ -12,8 +12,6 @@ class plots:
     def basic_plot(self, x=[], y=[], label=False):
         
         #plt.title(f"Goal Positions of {name}")
-        plt.xlabel("Initial X")
-        plt.ylabel("Initial Y")
         plt.xlim(0, 100)   # fixed x-axis range
         plt.ylim(0, 100)  # fixed y-axis range
         plt.gca().invert_yaxis()  # put 0 at top
@@ -57,6 +55,45 @@ class plots:
         plt.scatter(x, y)
 
         self.basic_plot(x,y,label=True)
+    
+        return
+
+    def plot_assist_positions_of(self, playerID):
+        player_goal_positions = self.query.assist_positions_of(playerID)
+        
+        x = player_goal_positions["initialX"]
+        y = player_goal_positions["initialY"]
+
+        plt.figure(figsize=(15, 10))
+        plt.scatter(x, y, c='yellow')
+
+        self.basic_plot(x,y,label=True)
+    
+        return
+
+    def plot_assist_path_of(self, playerID):
+        player_goal_positions = self.query.assist_positions_of(playerID)
+        
+        initialX = player_goal_positions["initialX"]
+        initialY = player_goal_positions["initialY"]
+        finalX = player_goal_positions["finalX"]
+        finalY = player_goal_positions["finalY"]
+
+        plt.figure(figsize=(15, 10))
+        
+        # Loop through each pair of start and end points
+        for x1, y1, x2, y2 in zip(initialX, initialY, finalX, finalY):
+            plt.plot([x1, x2], [y1, y2], c="black", linewidth=0.5)  # Draw line with points
+
+        # Plot initial points
+        plt.scatter(initialX, initialY, color='blue', label='Initial Position', zorder=3)
+        
+        # Plot final points
+        plt.scatter(finalX, finalY, color='red', label='Final Position', zorder=3)
+
+        plt.legend()
+
+        self.basic_plot()
     
         return
         

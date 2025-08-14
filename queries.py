@@ -32,41 +32,41 @@ class queries:
         result = pd.read_sql(query, con=self.engine)
         return result
 
-    def show_players_table(self, limit):
+    def show_players_table(self, limit=5):
         response = self.query_this(f""" SELECT * FROM players LIMIT {limit}""")
         return response
         
-    def show_teams_table(self, limit):
+    def show_teams_table(self, limit=5):
         response = self.query_this(f""" SELECT * FROM teams LIMIT {limit}""")
         return response
 
-    def show_matches_table(self, limit):
+    def show_matches_table(self, limit=5):
         response = self.query_this(f""" SELECT * FROM matches LIMIT {limit}""")
         return response
 
-    def show_events_table(self, limit):
+    def show_events_table(self, limit=5):
         response = self.query_this(f""" SELECT * FROM events LIMIT {limit}""")
         return response
 
-    def show_event_tags_table(self, limit):
+    def show_event_tags_table(self, limit=5):
         response = self.query_this(f""" SELECT * FROM event_tags LIMIT {limit}""")
         return response
 
-    def show_positions_table(self, limit):
+    def show_positions_table(self, limit=5):
         response = self.query_this(f""" SELECT * FROM positions LIMIT {limit}""")
         return response
 
-    def search_team_by_name(self, name, limit):
+    def search_team_by_name(self, name, limit=5):
         query = f""" SELECT * FROM teams WHERE name LIKE '%{name}%' LIMIT {limit}"""
         response = self.query_this(query)
         return response
 
-    def search_player_by_name(self, name, limit):
-        query = f""" SELECT * FROM players WHERE firstName LIKE '%{name}%' OR lastName LIKE '%{name}%' LIMIT {limit}"""
+    def search_player_by_name(self, name, limit=5):
+        query = f""" SELECT * FROM players WHERE firstName LIKE '%{name}%' OR lastName LIKE '%{name}%' OR shortName LIKE '%{name}%' LIMIT {limit}"""
         response = self.query_this(query)
         return response
 
-    def search_event_by_name(self, name, limit):
+    def search_event_by_name(self, name, limit=5):
         query = f""" SELECT * FROM events WHERE eventName LIKE '%{name}%' OR subEventName LIKE '%{name}%' LIMIT {limit}"""
         response = self.query_this(query)
         return response
@@ -76,13 +76,18 @@ class queries:
         response = self.query_this(query)
         return response
 
+    def get_player_by_id(self, playerID):
+        query = f""" SELECT * FROM players WHERE playerId = {playerID}"""
+        response = self.query_this(query)
+        return response
+
     def get_match_by_id(self, matchID):
         query = f""" SELECT * FROM matches WHERE match_id = {matchID}"""
         response = self.query_this(query)
         return response
 
-    def get_event_name_by_id(self, eventID, limit):
-        query = f""" SELECT * FROM events WHERE eventId = {eventID} LIMIT {limit} """
+    def get_event_name_by_id(self, eventID):
+        query = f""" SELECT eventName FROM events WHERE eventId = {eventID} LIMIT 1 """
         response = self.query_this(query)
         return response
 
@@ -94,6 +99,11 @@ class queries:
     
     def get_number_of_goals_by_player(self, playerID):
         query = f""" SELECT COUNT(events.id) AS 'Goals' FROM event_tags, events ON event_tags.event_id = events.id WHERE events.playerId={playerID} AND tag=101 AND eventId IN (3, 10)"""
+        response = self.query_this(query)
+        return response
+
+    def get_number_of_assists_by_player(self, playerID):
+        query = f""" SELECT COUNT(events.id) AS 'Assists' FROM event_tags, events ON event_tags.event_id = events.id WHERE events.playerId={playerID} AND tag=301"""
         response = self.query_this(query)
         return response
 
@@ -200,12 +210,21 @@ class queries:
                  """
         response = self.query_this(query)
         return response
-        
-    def get_number_of_goals_by_players_from_team(self, teamID):
-        pass
-        query = none
+
+    def get_all_assists_details_by_player(self, playerID):
+        query = f"""SELECT * FROM matches
+                    JOIN events
+                    ON matches.match_id = events.matchId
+                    WHERE events.id IN
+                        (SELECT events.id FROM events 
+                        JOIN event_tags
+                        ON events.id = event_tags.event_id
+                        WHERE tag = 301
+                        AND playerId = {playerID})
+                 """
         response = self.query_this(query)
         return response
+
 
     def test(self, playerID):
         query = f"""SELECT * FROM positions
@@ -240,6 +259,18 @@ class queries:
         
         return player_goal_positions
 
+    def assist_positions_of(self, playerID):
+        player_goal_positions = self.query_this(f"""SELECT * FROM positions
+                      WHERE id IN (
+                        SELECT events.id FROM events 
+                        JOIN event_tags
+                        ON events.id = event_tags.event_id
+                        WHERE tag = 301
+                        AND playerId = {playerID})
+                    """)
+        
+        return player_goal_positions
+
 
     def goal_positions_of_team(self, teamID):
         team_goal_positions = self.query_this(f"""SELECT positions.*, e.playerId, players.shortName FROM positions
@@ -256,4 +287,5 @@ class queries:
                       
         
         return team_goal_positions
-    
+
+
