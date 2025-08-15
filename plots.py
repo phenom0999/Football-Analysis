@@ -96,6 +96,58 @@ class plots:
         self.basic_plot()
     
         return
+
+    def plot_pass_path_of(self, playerID, passID=None, backward=False):
+        player_pass_positions = self.query.pass_positions_of(playerID, passID, sideways)
+        
+        initialX = player_pass_positions["initialX"]
+        initialY = player_pass_positions["initialY"]
+        finalX = player_pass_positions["finalX"]
+        finalY = player_pass_positions["finalY"]
+
+        plt.figure(figsize=(15, 10))
+        
+        # Loop through each pair of start and end points
+        for x1, y1, x2, y2 in zip(initialX, initialY, finalX, finalY):
+            plt.plot([x1, x2], [y1, y2], c="black", linewidth=0.5)  # Draw line with points
+
+        # Plot initial points
+        plt.scatter(initialX, initialY, color='blue', label='Initial Position', zorder=3, s=3)
+        
+        # Plot final points
+        plt.scatter(finalX, finalY, color='red', label='Final Position', zorder=3, s=3)
+
+        plt.legend()
+
+        self.basic_plot()
+    
+        return
+
+    def plot_pass_path_of_team(self, teamID, passID=None, sideways=False):
+        player_pass_positions = self.query.pass_positions_of_team(teamID, passID, sideways)
+        
+        initialX = player_pass_positions["initialX"]
+        initialY = player_pass_positions["initialY"]
+        finalX = player_pass_positions["finalX"]
+        finalY = player_pass_positions["finalY"]
+
+        plt.figure(figsize=(15, 10))
+        
+        # Loop through each pair of start and end points
+        for x1, y1, x2, y2 in zip(initialX, initialY, finalX, finalY):
+            plt.plot([x1, x2], [y1, y2], c="black", linewidth=0.5)  # Draw line with points
+
+        # Plot initial points
+        plt.scatter(initialX, initialY, color='blue', label='Initial Position', zorder=3, s=3)
+        
+        # Plot final points
+        plt.scatter(finalX, finalY, color='red', label='Final Position', zorder=3, s=3)
+
+        plt.legend()
+
+        self.basic_plot()
+    
+        return
         
     def plot_goal_positions_of_team(self, teamID, separate_players=False):
         team_goal_positions = self.query.goal_positions_of_team(teamID)

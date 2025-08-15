@@ -44,8 +44,8 @@ class queries:
         response = self.query_this(f""" SELECT * FROM matches LIMIT {limit}""")
         return response
 
-    def show_events_table(self, limit=5):
-        response = self.query_this(f""" SELECT * FROM events LIMIT {limit}""")
+    def show_events_table(self, limit=5, offset=0):
+        response = self.query_this(f""" SELECT * FROM events LIMIT {limit} OFFSET {offset}""")
         return response
 
     def show_event_tags_table(self, limit=5):
@@ -111,6 +111,12 @@ class queries:
         query = f""" SELECT * FROM matches WHERE matches.away_team = {teamID} OR matches.home_team = {teamID} ORDER BY gameweek"""
         response = self.query_this(query)
         return response 
+
+    def show_distinct_subevents(self):
+        query = f"""SELECT DISTINCT subEventId, subEventName FROM events
+                    """
+        response = self.query_this(query)
+        return response
 
     def get_number_of_goals_by_team(self, teamID):
         query = f""" SELECT (
@@ -225,16 +231,6 @@ class queries:
         response = self.query_this(query)
         return response
 
-
-    def test(self, playerID):
-        query = f"""SELECT * FROM positions
-                      WHERE id IN (
-                        SELECT events.id FROM events 
-                        WHERE eventId IN(10)
-                        AND playerId = {playerID})
-                    """
-        response = self.query_this(query)
-        return response
     
     def shooting_positions_of(self, playerID):
         player_shot_positions = self.query_this(f"""SELECT * FROM positions
@@ -271,6 +267,62 @@ class queries:
         
         return player_goal_positions
 
+    def pass_positions_of_team(self, teamID, passID=None, sideways=False):
+        query = f"""
+            SELECT * FROM positions
+            WHERE id IN (
+                SELECT events.id 
+                FROM events 
+                WHERE eventId = 8
+                  AND teamId = {teamID}
+        """
+    
+        if passID is not None:
+            query += f" AND subEventId = {passID}"
+    
+        query += """
+            )
+            AND NOT (finalX = 0 AND finalY = 0) 
+            AND NOT (finalX = 100 AND finalY = 100)
+        """
+
+        if sideways:
+            query += """
+                 AND initialX > finalX - 5
+                 AND initialX < finalX + 5
+            """
+    
+        player_goal_positions = self.query_this(query)
+        return player_goal_positions
+
+    def pass_positions_of(self, playerID, passID=None, sideways=False):
+        query = f"""
+            SELECT * FROM positions
+            WHERE id IN (
+                SELECT events.id 
+                FROM events 
+                WHERE eventId = 8
+                  AND playerId = {playerID}
+        """
+    
+        if passID is not None:
+            query += f" AND subEventId = {passID}"
+    
+        query += """
+            )
+            AND NOT (finalX = 0 AND finalY = 0) 
+            AND NOT (finalX = 100 AND finalY = 100)
+        """
+    
+        if sideways:
+            query += """
+                 AND initialX > finalX - 5
+                 AND initialX < finalX + 5
+            """
+    
+        player_goal_positions = self.query_this(query)
+        return player_goal_positions
+
 
     def goal_positions_of_team(self, teamID):
         team_goal_positions = self.query_this(f"""SELECT positions.*, e.playerId, players.shortName FROM positions
@@ -287,5 +339,16 @@ class queries:
                       
         
         return team_goal_positions
+
+
+
+    def get_tags_for_event(self, eventID):
+        query = f"""SELECT * FROM events
+                    JOIN event_tags
+                    ON events.id = event_tags.event_id
+                    WHERE event_tags.event_id = {eventID}
+                    """
+        response = self.query_this(query)
+        return response
 
 
