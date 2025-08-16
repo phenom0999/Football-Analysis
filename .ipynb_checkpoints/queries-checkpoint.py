@@ -202,7 +202,7 @@ class queries:
         return self.query_this(query)
 
 
-    def get_all_goals_details_by_player(self, playerID):
+    def get_all_goals_detail_by_player(self, playerID):
         query = f"""SELECT * FROM matches
                     JOIN events
                     ON matches.match_id = events.matchId
@@ -226,6 +226,21 @@ class queries:
                         JOIN event_tags
                         ON events.id = event_tags.event_id
                         WHERE tag = 301
+                        AND playerId = {playerID})
+                 """
+        response = self.query_this(query)
+        return response
+
+    def get_all_goals_detail_by_players_assist(self, playerID):
+        query = f"""SELECT * FROM matches
+                    JOIN events
+                    ON matches.match_id = events.matchId
+                    WHERE events.id IN
+                        (SELECT events.id FROM events 
+                        JOIN event_tags
+                        ON events.id = event_tags.event_id
+                        WHERE tag = 101
+                        AND eventId IN(3,10)
                         AND playerId = {playerID})
                  """
         response = self.query_this(query)
@@ -351,4 +366,36 @@ class queries:
         response = self.query_this(query)
         return response
 
+    def test(self):
+        query = f"""SELECT events.*, players.shortName FROM events 
+                    JOIN players
+                    ON events.playerId = players.wyId
+                        WHERE id IN
+                        (SELECT event_id FROM event_tags WHERE event_id IN 
+                            (SELECT event_id FROM event_tags
+                            WHERE tag = 1401)
+                        AND tag = 1801)
+                        AND matchId = 2500031
+                        
+                    """
+        response = self.query_this(query)
+        return response
+
+    def all_passes_in_a_match(self, matchId):
+        query = f"""SELECT * FROM events WHERE id IN
+                        (SELECT event_id FROM event_tags WHERE event_id IN 
+                            (SELECT event_id FROM event_tags
+                            WHERE tag = 1401)
+                        AND tag = 1801)
+                        AND matchId = 2500031
+                    """
+        response = self.query_this(query)
+        return response
+
+    def test2(self):
+        query = f"""SELECT * FROM matches WHERE home_team = 1610 and away_team = 1624
+                    """
+        response = self.query_this(query)
+        return response
+        
 
