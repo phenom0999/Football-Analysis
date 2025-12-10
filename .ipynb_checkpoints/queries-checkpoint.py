@@ -77,7 +77,7 @@ class queries:
         return response
 
     def get_player_by_id(self, playerID):
-        query = f""" SELECT * FROM players WHERE playerId = {playerID}"""
+        query = f""" SELECT * FROM players WHERE wyId = {playerID}"""
         response = self.query_this(query)
         return response
 
@@ -96,6 +96,10 @@ class queries:
         response = self.query_this(query)
         return response
 
+    def get_all_goals(self):
+        query = f""" SELECT DISTINCT event_tags.tag FROM events JOIN event_tags ON events.id = event_tags.event_id WHERE events.eventId =  10 """
+        response = self.query_this(query)
+        return response
     
     def get_number_of_goals_by_player(self, playerID):
         query = f""" SELECT COUNT(events.id) AS 'Goals' FROM event_tags, events ON event_tags.event_id = events.id WHERE events.playerId={playerID} AND tag=101 AND eventId IN (3, 10)"""
