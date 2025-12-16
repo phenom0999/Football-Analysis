@@ -1,5 +1,3 @@
-
-```markdown
 # Premier League Football Analysis (2017-18)
 
 Comprehensive data analysis and visualization of the 2017-18 Premier League season, featuring expected goals (xG) modeling, shot analysis, and player performance metrics.
