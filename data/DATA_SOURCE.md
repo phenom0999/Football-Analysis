@@ -26,4 +26,4 @@ your-projects/
 3. Run `notebooks/data_processing.ipynb` to create the database
 
 ## Why External?
-The original dataset (~500MB) is too large for GitHub and is excluded via `.gitignore`.
+The original dataset (~500MB) is too large for GitHub.
