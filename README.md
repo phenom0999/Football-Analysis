@@ -26,3 +26,9 @@ Comprehensive data analysis and visualization of the 2017-18 Premier League seas
 
 Soccer Match Event Dataset (2017-18 Premier League) from Figshare.
 See `data/DATA_SOURCE.md` for details.
+
+## Usage
+
+1. **Download dataset** - Follow instructions in `data/DATA_SOURCE.md` to download and place the data one level above this repo
+2. **Process data** - Run `notebooks/data_processing.ipynb` to create database from raw JSON files
+3. **Run analysis** - Open `notebooks/xG_analysis.ipynb` for main analysis and visualizations
