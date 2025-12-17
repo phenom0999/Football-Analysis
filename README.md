@@ -87,7 +87,3 @@ pip install -r requirements.txt
 - Multi-season comparison analysis
 - Interactive dashboard with Plotly
 - Advanced passing network analysis
-
-## License
-
-MIT
