@@ -46,7 +46,7 @@ pip install -r requirements.txt
 ![Man City Shot Positions](outputs/plots/shot_positions_man_city.png)
 
 ### Assist Paths of a Player
-![KDB assits](outputs/plots/assit_path_kevin_de_bruyne.png)
+![KDB assits](outputs/plots/assist_path_kevin_de_bruyne.png)
 
 ### Salah Shots vs Goals
 ![Salah](outputs/plots/salah_shots_vs_goals.png)
