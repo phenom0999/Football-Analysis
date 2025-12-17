@@ -59,9 +59,10 @@ pip install -r requirements.txt
 
 ## Key Insights
 
-- [Add 2-3 interesting findings from your analysis]
-- Example: "Mohamed Salah's xG suggests clinical finishing with X goals above expected"
-- Example: "Most goals scored from within Y meters of goal"
+- Top assisting players like Kevin De Bruyne show extraordinary assist path patterns with creative ball progression
+- Salah, Kane, and Vardy overperformed their xG significantly, demonstrating clinical finishing in the 2017-18 season
+- xG model correctly reflects shot quality based on distance and angle to goal
+
 
 ## Technical Stack
 
