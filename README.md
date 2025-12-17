@@ -42,10 +42,10 @@ pip install -r requirements.txt
 
 ## Visualizations
 
-### Shot Positions of a Team
+### Shot Positions of a Team (Man City 2017-18 PL)
 ![Man City Shot Positions](outputs/plots/shot_positions_man_city.png)
 
-### Assist Paths of a Player
+### Assist Paths of a Player (Kevin De Bruyne 2017-18 PL)
 ![KDB assits](outputs/plots/assist_path_kevin_de_bruyne.png)
 
 ### Salah Shots vs Goals
