@@ -15,15 +15,9 @@ Comprehensive data analysis and visualization of the 2017-18 Premier League seas
 - Goal position visualization revealing scoring patterns
 - Shot-to-goal conversion metrics by player and team
 
-### 3. Assist & Pass Networks
-- Pass sequence visualization leading to goals
+### 3. Assist Paths
 - Assist path analysis showing player connections
-- Team passing pattern analysis
 
-### 4. Player Performance Metrics
-- Individual player statistics (goals, assists, shots)
-- Performance comparison across multiple players
-- Team-level aggregated statistics
 
 ## Dataset
 
