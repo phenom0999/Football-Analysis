@@ -10,12 +10,14 @@ class queries:
     def load_data(self):
         # List of your CSV files and corresponding table names
         csv_files = {
-            'players': 'dataframes/players.csv',
-            'matches': 'dataframes/matches.csv',
-            'events': 'dataframes/events.csv',
-            'teams': 'dataframes/teams.csv',
-            'positions': 'dataframes/positions.csv',
-            'event_tags': 'dataframes/event_tags.csv'
+            'players': '../data/dataframes/players.csv',
+            'matches': '../data/dataframes/matches.csv',
+            'events': '../data/dataframes/events.csv',
+            'teams': '../data/dataframes/teams.csv',
+            'positions': '../data/dataframes/positions.csv',
+            'event_tags': '../data/dataframes/event_tags.csv'
+
+            
         }
         
         for table_name, csv_file in csv_files.items():

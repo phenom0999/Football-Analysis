@@ -1,4 +1,4 @@
-from queries import queries
+from .queries import queries
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 
@@ -17,15 +17,14 @@ class plots:
         plt.gca().invert_yaxis()  # put 0 at top
         
          # Load and display background image
-        img = mpimg.imread('football_pitch.jpg')
+        img = mpimg.imread('../assets/football_pitch.jpg')
         plt.imshow(img, extent=[0, 100, 0, 100], aspect='auto', alpha=0.65)
 
         if label:
             # Label each point with its index
             for i, (xi, yi) in enumerate(zip(x, y)):
                 plt.text(xi, yi, str(i), fontsize=9, ha='right', va='bottom')
-            
-        
+
         plt.show()  # optional depending on context  
         
 
