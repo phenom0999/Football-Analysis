@@ -83,7 +83,6 @@ pip install -r requirements.txt
 
 ## Future Work
 
-- Incorporate defensive pressure metrics
 - Multi-season comparison analysis
 - Interactive dashboard with Plotly
 - Advanced passing network analysis
